@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn-primary {
+  @apply border p-2 rounded-md bg-slate-500 text-white hover:opacity-75 transition-all;
+}
